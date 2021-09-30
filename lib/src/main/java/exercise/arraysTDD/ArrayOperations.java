@@ -23,6 +23,10 @@ public class ArrayOperations {
 
     public void print() {
         
+    	for (int number : numbers) {
+			System.out.print(number + ", ");
+		}
+    	
     }
 
     /**
